@@ -230,7 +230,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="license.txt" />
     <Content Include="Resources\favicon.ico" />
     <Content Include="Resources\PINGOLogo.jpg" />
     <Content Include="Resources\PINGOLogo.png" />
