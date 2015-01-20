@@ -64,20 +64,17 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AppLimit.NetSparkle.Net40">
-      <HintPath>..\..\..\..\Downloads\AppLimit.NetSparkle.Net40.dll</HintPath>
-    </Reference>
     <Reference Include="Awesomium.Core, Version=1.7.4.2, Culture=neutral, PublicKeyToken=e1a0d7c8071a5214, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Awesomium Technologies LLC\Awesomium SDK\1.7.4.2\wrappers\Awesomium.NET\Assemblies\Awesomium.Core.dll</HintPath>
+      <HintPath>..\packages\Awesomium\Awesomium.Core.dll</HintPath>
     </Reference>
     <Reference Include="Awesomium.Windows.Controls, Version=1.7.4.2, Culture=neutral, PublicKeyToken=7a34e179b8b61c39, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Setup4\Setup\Express\DVD-5\DiskImages\DISK1\Global Assembly Cache Folder\Awesomium.Windows.Controls\1.7.4.2_7A34E179B8B61C39\Awesomium.Windows.Controls.dll</HintPath>
+      <HintPath>..\packages\Awesomium\Awesomium.Windows.Controls.dll</HintPath>
     </Reference>
     <Reference Include="Awesomium.Windows.Forms, Version=1.7.4.2, Culture=neutral, PublicKeyToken=9bd24830fbe304a0, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Awesomium Technologies LLC\Awesomium SDK\1.7.4.2\wrappers\Awesomium.NET\Assemblies\Awesomium.Windows.Forms.dll</HintPath>
+      <HintPath>..\packages\Awesomium\Awesomium.Windows.Forms.dll</HintPath>
     </Reference>
     <Reference Include="NDatabase3">
       <HintPath>..\packages\NDatabase.3.8.0\lib\net45\NDatabase3.dll</HintPath>
